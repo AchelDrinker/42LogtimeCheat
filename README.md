@@ -16,9 +16,10 @@ logfarm
 ## Manual installation
 
 ```
-cd && git clone https://github.com/AchelDrinker/logtime-farmer.git logtime-farmer && cd logtime-farmer
+cd && git clone https://github.com/AchelDrinker/logtime-farmer.git logtime-farmer
 pip3 install pynput
 alias logfarm='python3 ~/$HOME/logtime-farmer/src/logtime-farmer.py'
+cd logtime-farmer
 python3 src/logtime-farmer.py
 ```
 
