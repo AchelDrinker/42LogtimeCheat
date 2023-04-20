@@ -15,8 +15,8 @@ def intro():
     print(" / /__/ /_/ / (_ / / / _/ // /|_/ / _/  / _// __ |/ , _/ /|_/ / _// , _/")
     print("/____/\____/\___/ /_/ /___/_/  /_/___/ /_/ /_/ |_/_/|_/_/  /_/___/_/|_| ")
     print("\n\n")
-    print("   Created by : humartin")
-    print("alias to launch it : logfarm")
+    print("   Created by : humartin\n")
+    print("Alias to launch it : logfarm\n")
 
 def get_now_timestamp():
     now = datetime.now()
