@@ -15,12 +15,13 @@ def intro():
     print(" / /__/ /_/ / (_ / / / _/ // /|_/ / _/  / _// __ |/ , _/ /|_/ / _// , _/")
     print("/____/\____/\___/ /_/ /___/_/  /_/___/ /_/ /_/ |_/_/|_/_/  /_/___/_/|_| ")
     print("\n\n")
-    print("   Created by : humartin\n")
-    print("Alias to launch it : logfarm\n")
+    print("   Created by : humartin")
+    print("alias to launch it : logfarm")
 
 def get_now_timestamp():
     now = datetime.now()
     return now.strftime("%H:%M:%S")
+
 
 intro()
 lastSavePosition = (0, 0)
