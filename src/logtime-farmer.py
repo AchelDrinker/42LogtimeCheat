@@ -22,7 +22,6 @@ def get_now_timestamp():
     now = datetime.now()
     return now.strftime("%H:%M:%S")
 
-
 intro()
 lastSavePosition = (0, 0)
 try:
