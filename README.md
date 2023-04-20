@@ -5,6 +5,8 @@ The program is set to lock your screen after 5 hours if nobody touches it. You c
 
 After launching it, the only thing to do is to put the video in fullscreen.
 
+To launch it everywhere, use the alias below after restart your terminal.
+
 ##### Run
 
 ```
