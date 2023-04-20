@@ -18,7 +18,7 @@ logfarm
 ```
 cd && git clone https://github.com/AchelDrinker/logtime-farmer.git logtime-farmer
 pip3 install pynput
-alias logfarm='python3 ~/$HOME/logtime-farmer/src/logtime-farmer.py'
+alias logfarm='python3 ~/$HOME/logtime-farmer/src/logtime-farmer.py' >> .zshrc
 cd logtime-farmer
 python3 src/logtime-farmer.py
 ```
