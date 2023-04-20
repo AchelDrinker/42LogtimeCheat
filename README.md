@@ -12,7 +12,7 @@ logfarm
 ## Manual installation
 
 ```
-cd && git clone https://github.com/AchelDrinker/CLEANER_42_IMPROVED.git logtime-farmer && cd logtime-farmer
+cd && git clone https://github.com/AchelDrinker/logtime-farmer.git logtime-farmer && cd logtime-farmer
 pip3 install pynput
 open README.md
 alias logfarm='python3 ~/$HOME/logtime-farmer/src/logtime-farmer.py'
