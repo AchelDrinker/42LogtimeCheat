@@ -2,6 +2,7 @@
 
 This program will lock screen you computer at 42 if someone moves the mouse.  
 The program is set to lock your screen after 5 hours if nobody touches it. You can change this value by changing timeToFarm.
+
 After launching it, the only thing to do is to put the video in fullscreen.
 
 ##### Run
