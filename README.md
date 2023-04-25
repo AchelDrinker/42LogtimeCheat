@@ -13,7 +13,7 @@ To launch it everywhere, use the alias below after restart your terminal.
 logfarm
 ```
 
-## Manual installation
+## Installation
 
 ```
 cd && git clone https://github.com/AchelDrinker/logtime-farmer.git logtime-farmer
