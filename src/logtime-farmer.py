@@ -2,12 +2,10 @@
 
 import time
 import os
-from datetime import datetime, timedelta
+from datetime import datetime
 from pynput.mouse import Controller as MouseController
-from pynput.keyboard import Key, Controller as KeyboardController
 
 mouse = MouseController()
-keyboard = KeyboardController()
 
 def intro():
     print("   __   ____  _________________  _______  _______   ___  __  ____________")
@@ -39,7 +37,7 @@ try:
     farmingMinutes = 0
     farmingHours = 0
 
-    # time is in second
+    # timeToFarm in second
     timeToFarm = 18000
 
     while farmingSeconds < timeToFarm:
@@ -65,16 +63,16 @@ try:
             elif farmingSeconds > 0:
                 print('Time farmed : ', farmingSeconds, 'seconds')
             os.system('pmset displaysleepnow')
-            exit()
-
+            break
+        
         lastSavePosition = currentPosition
 
         delta = now - start
         farmingSeconds = int(delta.total_seconds())
         if farmingSeconds >= 60 and farmingSeconds % 60 == 0:
-           farmingMinutes = farmingSeconds / 60
-           if farmingMinutes >= 60 and farmingMinutes % 60 == 0:
-                farmingHours = farmingMinutes / 60
+            farmingMinutes = farmingSeconds / 60
+        if farmingMinutes >= 60 and farmingMinutes % 60 == 0:
+            farmingHours = farmingMinutes / 60
     print('\nLogtime farm will end soon')
     print('If you want more logtime, set the value in timeToFarm')
     os.system('pmset displaysleepnow')
