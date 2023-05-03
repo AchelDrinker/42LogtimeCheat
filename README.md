@@ -22,4 +22,3 @@ pip3 install pynput
 cd logtime-farmer/src && chmod 777 install.sh && ./install.sh
 python3 logtime-farmer.py
 ```
-
