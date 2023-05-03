@@ -15,6 +15,8 @@ logfarm
 
 ## Installation
 
+Copy and paste all the following lines in your terminal.
+
 ```
 cd && git clone https://github.com/AchelDrinker/logtime-farmer.git logtime-farmer
 pip3 install pynput
