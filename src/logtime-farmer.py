@@ -90,7 +90,6 @@ try:
         if farmingMinutes >= 60 and farmingMinutes % 60 == 0:
             farmingHours = farmingMinutes / 60
     print('\nLogtime farm will end soon')
-    print('If you want more logtime, set the value in timeToFarm')
     os.system('pmset displaysleepnow')
 
 except KeyboardInterrupt:
